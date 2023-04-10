@@ -1,0 +1,17 @@
+/* Navbar */
+#navbar {
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+    overflow: hidden;
+    height: 80px;
+
+}
+/* Courses Section */
+
+#courses .items {
+    flex-direction: column;
+}
+#courses .items .item {
+    width: 100%;
+
+}

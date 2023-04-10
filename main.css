@@ -1,0 +1,194 @@
+/* Font Size */
+html {
+    font-family: "Noto Sans Ethiopic", sans-serif;
+}
+/* All */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Anchor */
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Navbar Section  */
+header {
+    background: linear-gradient(to right, #2D033B, #810CA8, #C147E9)
+}
+#navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#navbar ul li a {
+    padding: 0.75rem;
+    margin-right: 1rem;
+}
+
+
+
+#navbar ul li a:hover {
+    background-color: gold;
+    color: black;
+    border-radius: 4px;
+}
+/* Home Section */
+h3 {
+    padding-top: 0.5rem;
+}
+
+li {
+    list-style-position: inside;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: none;
+
+}
+
+
+#home img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 100%;
+    width: 300px;
+
+}
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+    
+
+#home .name p {
+    font-style: italic;
+    opacity: 0.6;
+    margin-bottom: 1.25rem;
+}
+
+#home a {
+    background-color: #810CA8;
+    padding: 0.75rem 3rem;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+   
+}
+
+#home a:hover {
+    color: #810CA8;
+    background-color: #fff; 
+    border: 0.5px solid #2D033B;
+    box-shadow: 4px 4px 2px;
+
+}
+/* Courses Section */
+
+#courses {
+    color: #fff;
+    border-top: gold solid 2px;
+    border-bottom: gold solid 2px;
+
+}
+
+#courses p, #courses li, #courses a {
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+#courses i {
+    margin-right: 0.5rem;
+}
+
+#courses .items {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#courses .items .item {
+    width: 33%;
+    padding: 0.5rem;
+    
+}
+
+#courses .items .item:hover {
+    color: yellow;
+    
+}
+
+#courses p small:hover {
+    color:brown;
+    
+}
+/* Contact Section */
+
+#contact {
+    color: white;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.contact-form i {
+margin-right: 0.5rem;
+}
+
+#contact .contact-form li {
+    list-style-type: none;
+
+}
+/* Footer */
+
+footer ul li a:hover {
+    color: yellow;
+}
+
+footer ul li a {
+
+    padding: 0 3rem 0 3rem;
+    font-size: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
